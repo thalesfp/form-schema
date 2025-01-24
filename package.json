@@ -1,5 +1,5 @@
 {
-  "name": "form-schema",
+  "name": "base-form-schema",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -20,7 +20,7 @@
   },
   "author": "Thales Pereira <thalesfp@gmail.com>",
   "license": "ISC",
-  "description": "",
+  "description": "A TypeScript-first form management library designed to work seamlessly with Valtio and Zod.",
   "peerDependencies": {
     "fast-deep-equal": "^3.1.3",
     "zod": "^3.24.1"

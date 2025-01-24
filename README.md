@@ -1,4 +1,4 @@
-# FormSchema
+# Base Form Schema
 
 A TypeScript-first form management library designed to work seamlessly with Valtio and Zod. Built as a lightweight alternative to React Hook Form, focusing on schema validation and state management.
 
@@ -9,13 +9,14 @@ A TypeScript-first form management library designed to work seamlessly with Valt
 - 🔄 Multiple Validation Modes - onChange, onBlur, or onSubmit
 - 💪 TypeScript-first - Full type safety and excellent DX
 - 🪶 Lightweight - Zero dependencies beyond Valtio and Zod
+- 🧩 Extensible - Easily extendable with custom validation logic
 
 ## Installation
 
 ```bash
-npm install form-schema valtio zod
+npm install base-form-schema valtio zod
 # or
-yarn add form-schema valtio zod
+yarn add base-form-schema valtio zod
 ```
 
 ## Quick Start
@@ -23,7 +24,7 @@ yarn add form-schema valtio zod
 ```typescript
 import { proxy } from 'valtio';
 import { z } from 'zod';
-import { BaseForm } from 'form-schema';
+import { BaseForm } from 'base-form-schema';
 
 // Define your schema
 const schema = z.object({
